@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<title>COUTURE | Culture & Cloth Styling</title>
+	<meta charset="UTF-8">
+	<meta name="description" content=" BloodSugar | Couture Styling">
+	<meta name="keywords" content="BloodSugar, styling, wear, shop, couture, etc">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="js/forms.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="bootstrap/js/bootstrap-formhelpers-phone.js" type="text/javascript" charset="utf-8" async defer></script>
+
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/proyecto.css">
+
+
+</head>
+
+<body>
+	<header id="header" class="header-section sticky-top">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 text-center text-lg-left">
+						<!-- logo -->
+						<a href="./index.html" class="site-logo">
+							<img class="img-logo" src="img/logoCoutureBlack.png" alt="">
+						</a>
+					</div>
+					<div class="col-lg-0 col-md-0 col-md-sm-11"></div>
+					<div class="col-xl-6 col-lg-5">
+						<form class="header-search-form">
+							<input type="text" placeholder="Buscar en COUTURE ....">
+							<button><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+					<div class="col-lg-0 col-md-0 col-md-sm-11"></div>
+					<div class="col-xl-4 col-lg-5">
+						<div class="user-panel">
+							<div class="up-item">
+								<i class="fas fa-user"></i>
+								<a href="#">Login</a> &nbsp; | &nbsp; <a href="#">Crear Cuenta</a>
+							</div>
+							<div class="up-item">
+								<div class="shopping-card">
+									<i class="fas fa-shopping-bag"></i>
+
+									<span>0</span>
+								</div>
+								<a href="#">Shopping Cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-0 col-md-0 col-md-sm-11"> </div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<div class="container" style="background: none;">
+				<ul class="navbar-nav">
+					<li class="nav-item nav-option"><a class="nav-link " href="index.html"> Inicio </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="shop.html"> Shop </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="nosotros.html"> Nuestra Marca </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="contacto.html"> Contacto </a></li>
+				</ul>
+			</div>
+		</nav>
+	</header><!-- /header -->
+	
+<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 col-sm-12">
+				<br>
+				<h2>Carrito de Compras</h2>
+				<hr>
+					<div class="card cart-main">
+						<table class="table table-hover shopping-cart-wrap">
+						<thead class="text-muted">
+						<tr>
+						  <th scope="col">Producto</th>
+						  <th scope="col" width="120">Cantidad</th>
+						  <th scope="col" width="120">Precio</th>
+						  <th scope="col" class="text-right" width="200">Acción</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>
+						<figure class="media">
+							<div class="img-wrap"><img src="img/muestra/1.jpg" class="img-thumbnail img-sm"></div>
+							<figcaption class="media-body">
+								<h6 class="title text-truncate">[Nombre de Producto]</h6>
+								<dl class="dlist-inline small">
+								  <dt>Descuento: </dt>
+								  <dd>N/A</dd>
+								</dl>
+								<dl class="dlist-inline small">
+								  <dt>Categoría: </dt>
+								  <dd>Hogar, Electrodomesticos</dd>
+								</dl>
+								<dl class="dlist-inline small">
+								  <dt>Envío: </dt>
+								  <dd>Gratuito</dd>
+								</dl>
+							</figcaption>
+						</figure> 
+							</td>
+							<td>  
+								<input onchange="amount();" class="form-control" name="cantidad" id="prod-cant" type="number" min="1" max="20" name="cantidad" value="1">
+							</td>
+							<td> 
+								<div class="price-wrap"> 
+									<var id=precio value=145.00 class="price">$ 145.00</var> 
+									<small class="text-muted">(MXN)</small> 
+								</div> <!-- price-wrap .// -->
+							</td>
+							<td class="text-right"> 
+							<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-outline-success" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+							<a href="" class="btn btn-outline-danger"> × Remover</a>
+							</td>
+						</tr>
+						<tr>
+							
+						</tr>
+						<tr>
+							
+						</tr>
+						</tbody>
+						</table>
+						</div> <!-- card.// -->
+				<br>
+				<br>
+			</div>
+
+			<div class="col-lg-4 col-md-2 col-sm-12">
+				<p class="alert alert-success">Todos los envíos nacionales son gratuitos. Para envíos internacionales contacta a Servicio a Cliente. </p>
+					<dl class="dlist-align">
+					  <dt>Subtotal: </dt>
+					  <dd id="subtotal" class="text-right">$ &nbsp;</dd>
+					</dl>
+					<dl class="dlist-align">
+					  <dt>Descuento:</dt>
+					  <dd id="descuento" class="text-right">$ &nbsp;</dd>
+					</dl>
+					<dl class="dlist-align">
+					  <dt>IVA:</dt>
+					  <dd id="IVA" class="text-right">$ &nbsp;</dd>
+					</dl>
+					<dl class="dlist-align h4">
+					  <dt>Total:</dt>
+					  <dd class="text-right"><strong>$ &nbsp;</strong><strong id="total-carrito"></strong></dd>
+					</dl>
+					<hr>
+
+					<div class="row">
+						<figure class="mb-3 col">
+								<div class="text-wrap small text-muted">
+									Elija el método de pago:
+								</div>
+								<br>
+								<select class="form-control" name="pay-method" style="width:100%;">
+									<option value="">Seleccione</option>
+									<option value="">Crédito</option>
+									<option value="">Débito</option>
+									<option value="">OXXO</option>
+									<option value="">Paypal</option>
+									<option value="">Transferencia</option>
+								</select>
+						</figure>
+						<br>
+						<br>
+					</div>
+
+					<figure class="itemside mb-3">
+						<aside class="aside"><img src="img/icons/pay-visa.png"></aside>
+						 <div class="text-wrap small text-muted">
+					Paga a 12 MSI <br>
+					Solo bancos participantes 
+						 </div>
+					</figure>
+					<figure class="itemside mb-3">
+						<aside class="aside"> <img src="img/icons/pay-mastercard.png"> </aside>
+						 <div class="text-wrap small text-muted">
+					Recibe 10% de bonificación pagando con MasterCard 
+					 
+						 </div>
+					</figure>
+					<hr>
+
+					<div class="row">
+						<figure class="itemside mb-3 col">
+							<button type="submit" class="btn btn-primary btn-block">Confirmar Pedido</button>
+						</figure>
+						<figure class="itemside mb-3 col">
+							<button type="button" class="btn btn-danger btn-block">Vaciar Carrto</button>
+						</figure>
+					</div>
+			</div>
+
+		</div>
+</div>
+<div class="container-fluid">
+
+		<div class="row" id="footerA">
+		<div class="col-xl-1 col-lg-1 col-md-0 col-sm-0"></div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-11">
+				
+			</div>
+				<div class="col-xl-1 col-lg-1 col-md-0 col-sm-0"></div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-11">
+				
+			</div>
+				<div class="col-xl-1 col-lg-1 col-md-0 col-sm-0"></div>
+		</div>
+
+</div>
+
+
+	
+	
+</body>
+</html>

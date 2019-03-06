@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
-	<title>BloodSugar | Couture Styling</title>
+	<title>COUTURE | Culture & Cloth Styling</title>
 	<meta charset="UTF-8">
 	<meta name="description" content=" BloodSugar | Couture Styling">
 	<meta name="keywords" content="BloodSugar, styling, wear, shop, couture, etc">
@@ -12,16 +12,11 @@
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="js/forms.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="bootstrap/js/bootstrap-formhelpers-phone.js" type="text/javascript" charset="utf-8" async defer></script>
 
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/proyecto.css">
-
-	<script type="text/javascript" charset="utf-8" async defer>
-		$(document).ready(function(){
-	$("#frmRegistroP2").hidde();
-});
-	</script>
 
 
 </head>
@@ -40,7 +35,7 @@
 					<div class="col-lg-0 col-md-0 col-md-sm-11"></div>
 					<div class="col-xl-6 col-lg-5">
 						<form class="header-search-form">
-							<input type="text" placeholder="Search on divisima ....">
+							<input type="text" placeholder="Buscar en COUTURE ....">
 							<button><i class="fas fa-search"></i></button>
 						</form>
 					</div>
@@ -66,11 +61,14 @@
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-			<ul class="navbar-nav">
-				<li class="nav-item nav-option"><a class="nav-link "> </a></li>
-	
-
-			</ul>
+			<div class="container" style="background: none;">
+				<ul class="navbar-nav">
+					<li class="nav-item nav-option"><a class="nav-link " href="index.html"> Inicio </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="shop.html"> Shop </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="nosotros.html"> Nuestra Marca </a></li>
+					<li class="nav-item nav-option"><a class="nav-link " href="contacto.html"> Contacto </a></li>
+				</ul>
+			</div>
 		</nav>
 	</header><!-- /header -->
 	
@@ -86,57 +84,57 @@
 					<div class="row" id="frmRegistroP1">
 						<div class="col-lg-10 col-md-8 col-sm-11"><hr></div>
 					
-						<div class="col-lg-5 col-md-8 col-sm-11"><input class="form-control field" type="text" name="nombreU" value="" placeholder="Name"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input class="form-control field" type="text" id="nombreUsuario" name="nombreU" value="" placeholder="Name"><br></div>
 					
-						<div class="col-lg-5 col-md-8 col-sm-11"><input class="form-control field" type="text" name="nombreU" value="" placeholder="Last Name"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input class="form-control field" type="text" name="df" value="" placeholder="Last Name"><br></div>
 				
-						<div class="col-lg-6 col-md-8 col-sm-11"><input class="form-control field" type="email" name="nombreU" value="" placeholder="Email address"><br></div>
-						<div class="col-lg-4 col-md-8 col-sm-11"><input class="form-control field" type="text" name="nombreU" value="" placeholder="Nickname"><br></div>
+						<div class="col-lg-6 col-md-6 col-sm-11"><input class="form-control field" type="email" name="sd" value="" placeholder="Email address"><br></div>
+						<div class="col-lg-4 col-md-6 col-sm-11"><input class="form-control field" type="text" name="sdf" value="" placeholder="Nickname"><br></div>
 					
-						<div class="col-lg-5 col-md-8 col-sm-11"><input class="form-control field" type="password" name="nombreU" value="" placeholder="Password"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input class="form-control field" type="password" name="sdgsd" value="" placeholder="Password"><br></div>
 					
-						<div class="col-lg-5 col-md-8 col-sm-11"><input class="form-control field" type="password" name="nombreU" value="" placeholder="Confirm password"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input class="form-control field" type="password" name="sdhsd" value="" placeholder="Confirm password"><br></div>
 							<div class="col-lg-1 col-md-0 col-sm-0"></div>
 
-						<div class="col-lg-6 col-md-8 col-sm-11"><br></div>
-						<div class="col-lg-2 col-md-8 col-sm-11"><button type="reset" class="btn btn-danger btn-special form-control"><i class="fas fa-ban"></i> &nbsp; Cancelar &nbsp;</button></div>
-						<div class="col-lg-2 col-md-8 col-sm-11"><button type="button" class="btn btn-primary btn-special form-control"> Next &nbsp; <i class="fas fa-arrow-circle-right"></i> </button></div>
+						<div class="col-lg-6 col-md-3 col-sm-11"><br></div>
+						<div class="col-lg-2 col-md-3 col-sm-11"><button type="reset" class="btn btn-danger btn-special form-control"><i class="fas fa-ban"></i> Cancelar</button></div><div class="col-lg-0 col-md-0 col-md-sm-11">&nbsp; </div>
+						<div class="col-lg-2 col-md-3 col-sm-11"><button id="nextStep" type="button" class="btn btn-primary btn-special form-control"> Next <i class="fas fa-arrow-circle-right"></i> </button></div><div class="col-lg-0 col-md-0 col-md-sm-11">&nbsp; </div>
 						<div class="col-lg-8 col-md-8 col-sm-11"><br></div>
 						
 							
 						</div>
 						<div class="row" id="frmRegistroP2">
 					
-						<div class="col-lg-10 col-md-8 col-sm-11"><h2>Profile Data</h2><hr></div>
+						<div class="col-lg-10 col-md-12 col-sm-11"><h2>Profile Data</h2><hr></div>
 
-						<div class="col-lg-10 col-md-8 col-sm-11"><input class="form-control field" type="text" name="nombreU" value="" placeholder="Address"><br></div>
-						<div class="col-lg-5 col-md-8 col-sm-11">
+						<div class="col-lg-10 col-md-12 col-sm-11"><input class="form-control field" type="text" name="" value="" placeholder="Address"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11">
 							<select name="cityU" class="form-control field">
 								<option value="0"> Select your Country</option>
 								
 							</select>
 							<br>
 						</div>
-						<div class="col-lg-5 col-md-8 col-sm-11">
+						<div class="col-lg-5 col-md-6 col-sm-11">
 							<select name="cityU" class="form-control field">
 								<option value="0"> Select your City</option>
 								
 							</select>
 							<br>
 						</div>
-						<div class="col-lg-5 col-md-8 col-sm-11"><input type="text" placeholder="Phone number" class="form-control field input-medium bfh-phone" data-format="ddd - ddddddd"><br></div>
-						<div class="col-lg-5 col-md-8 col-sm-11"><input type="text" placeholder="Mobile nuumber" class="form-control field input-medium bfh-phone" data-format="ddd - ddddddd"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input type="text" placeholder="Phone number" class="form-control field input-medium bfh-phone" data-format="ddd - ddddddd"><br></div>
+						<div class="col-lg-5 col-md-6 col-sm-11"><input type="text" placeholder="Mobile nuumber" class="form-control field input-medium bfh-phone" data-format="ddd - ddddddd"><br></div>
 
-						<div class="col-lg-8 col-md-8 col-sm-11"><label for="avatar"> Profile Avatar</label></div>
+						<div class="col-lg-8 col-md-4 col-sm-11"><label for="avatar"> Profile Avatar</label></div>
 						<div class="col-lg-10 col-md-8 col-sm-11"><input class="form-control field" type="file" name="avatar" value="" placeholder="Avatar"><br></div>
 
-						<div class="col-lg-8 col-md-8 col-sm-11"><label for="background"> Profile Background</label></div>
+						<div class="col-lg-8 col-md-4 col-sm-11"><label for="background"> Profile Background</label></div>
 						<div class="col-lg-10 col-md-8 col-sm-11"><input class="form-control field" type="file" name="background" value="" placeholder="Background"><br></div>
 
-						<div class="col-lg-4 col-md-8 col-sm-11"><br></div>
-						<div class="col-lg-2 col-md-8 col-sm-11"><button type="reset" class="btn btn-danger btn-special form-control"><i class="fas fa-ban"></i> &nbsp;  Cancelar &nbsp; </button></div>
-						<div class="col-lg-2 col-md-8 col-sm-11"><button type="button" class="btn btn-primary btn-special form-control"> <i class="fas fa-arrow-circle-left"></i>&nbsp; Atras &nbsp; </button></div>
-						<div class="col-lg-2 col-md-8 col-sm-11"><button type="submit" class="btn btn-primary btn-special form-control"> Confirmar &nbsp; <i class="fas fa-check-circle"></i> </button></div>
+						<div class="col-lg-4 col-md-1 col-sm-11"><br></div>
+						<div class="col-lg-2 col-md-3 col-sm-11"><button type="reset" class="btn btn-danger btn-special form-control"><i class="fas fa-ban"></i> Cancelar </button></div><div class="col-lg-0 col-md-0 col-md-sm-11">&nbsp;</div>
+						<div class="col-lg-2 col-md-3 col-sm-11"><button type="button" id="BackForm" class="btn btn-primary btn-special form-control"> <i class="fas fa-arrow-circle-left"></i> Atras </button></div><div class="col-lg-0 col-md-0 col-md-sm-11">&nbsp;</div>
+						<div class="col-lg-2 col-md-3 col-sm-11"><button type="submit" class="btn btn-primary btn-special form-control"> Confirmar <i class="fas fa-check-circle"></i> </button></div><div class="col-lg-0 col-md-0 col-md-sm-11"> &nbsp;</div>
 					</div>
 				</form>
 				</div>

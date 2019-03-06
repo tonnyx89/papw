@@ -25,7 +25,10 @@ body{
 	background-color: #EAEAEA;
 }
 
-
+.sectionBar{
+	padding-top: 5em;
+	padding-bottom: 2em;
+}
 /*------------------
   Header section
 ---------------------*/
@@ -234,8 +237,9 @@ h2{
 }
 
 .btn-special{
-border: none;
+	border: none;
 	border-radius: 20px 20px 20px 20px;
+	height: 3.2em;
 }
 
 .center-child{
@@ -244,7 +248,195 @@ border: none;
 }
 
 #footerA{
-	background-color: #B8004A;
+	background-color: #212529;
 	height: 100px;
 }
 
+
+
+
+/* ############## MENU DE CATEGORIAS  ################*/
+
+.sideMenu{
+	background-color: #B96E90;
+}
+
+
+
+/*############## CARRUSEL MAGICO  ################### */
+.carousel-inner img {
+      width: 100%;
+      height: auto;
+      
+  }
+
+  .container.sliderText{
+  	background: none;
+  }
+
+  .slideTitle{
+
+  }
+
+
+  .slidePromo{
+
+  }
+
+  .freeShipping{
+  	
+  	border: none;
+  	border-radius: 50%;
+  	width: 5em;
+  	height: 5em;
+  	box-shadow: 3px 3px 5px #DE9AB4;
+  	background-image: url("../img/carrusel/freeShipping.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+  	position: relative;
+  	float: right;
+  	top: -18em;
+  	right: -5em;
+
+  }
+
+.price-new{
+	border: 2px solid #f51167;
+	border-radius: 8em;
+	min-width: 5em;
+	background-color: #f51167;
+	color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0.2em;
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+  .btn-light{
+  	color: #f51167 ;
+  }
+
+.btn-outline-light{
+	border-color: #f51167;
+	color: #f51167;
+ 
+}
+
+  .btn-light:hover{
+  	color: #f51167 ;
+  	border-color:  #f51167 !important; 
+  }
+
+.btn-outline-light:hover{
+	background-color: #f51167;
+	color: #FEFEFE;
+ 
+}
+
+  .btn-light:active{
+  		background-color: #f51167 !important; 
+		color: #FEFEFE !important;
+  }
+
+.btn-outline-light:active{
+	color: #f51167 !important ;
+	background-color: #FEFEFE !important;
+ 
+}
+
+ /*###############	IMAGENES DE PRODUCTO Y TARJETAS	##############3*/
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+
+
+  .card-product{
+  	border: none;
+  	max-width: 251px;
+  	text-align: center;
+
+  }
+
+  .card-product:hover{
+  	border: solid #f51167 0.5px;
+  	-webkit-box-shadow: 3px 4px 12px 3px rgba(245,17,103,0.81);
+	-moz-box-shadow: 3px 4px 12px 3px rgba(245,17,103,0.81);
+	box-shadow: 3px 4px 12px 3px rgba(245,17,103,0.81);
+  }
+
+  .card-product:active{
+  	border: solid #f51167 1px;
+  	animation-name: pulse;
+  	animation-duration: 1s;
+  }
+
+    .img-product{
+  	width: auto;
+  	height: 320px;
+  	border: none;
+  	border-radius: 4px;
+  }
+
+
+
+  /*###################	GENERAL BODY 	##################*/
+    .ProductSection{
+  	min-height: 450px;
+  }
+
+  .container.outliner{
+  	background: none;
+  }
+
+  #BestToHer{
+
+  }
+
+
+  #loginFormBackground{
+  	border: 2px solid #f51167; 
+  	padding: 3em;
+  	border-radius: 0.8em;
+  }
+
+  .loginBtn{
+  	width: 8.5em;
+  }
